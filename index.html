@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ur" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Khan Composing | خان کمپوزنگ میانوالی</title>
+  <meta name="description" content="خان کمپوزنگ میانوالی — فوٹو کاپی، کلر پرنٹ، نادرا بائیومیٹرک، آن لائن نادرا فیس، ڈرائیونگ لائسنس، لرنر، ڈومیسائل اور پاسپورٹ فیس۔">
+  <style>
+    :root{
+      --navy:#123e70; --blue:#1769aa; --gold:#d5a936; --light:#f5f8fc;
+      --text:#172033; --muted:#64748b; --white:#fff;
+    }
+    *{box-sizing:border-box;scroll-behavior:smooth}
+    body{margin:0;font-family:"Noto Nastaliq Urdu","Noto Sans Arabic",Tahoma,Arial,sans-serif;color:var(--text);background:#fff;line-height:1.8}
+    a{text-decoration:none;color:inherit}
+    .container{width:min(1120px,92%);margin:auto}
+    header{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.96);backdrop-filter:blur(10px);border-bottom:1px solid #e6edf5}
+    .nav{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:10px 0}
+    .brand{display:flex;align-items:center;gap:12px;font-weight:800;color:var(--navy)}
+    .brand img{width:54px;height:54px;object-fit:cover;border-radius:50%;border:2px solid #e6edf5}
+    .brand span{font-size:1.15rem}
+    nav{display:flex;gap:22px;align-items:center}
+    nav a{font-weight:700;color:#334155}
+    nav a:hover{color:var(--blue)}
+    .cta{background:var(--navy);color:#fff!important;padding:8px 16px;border-radius:999px}
+    .hero{background:radial-gradient(circle at 15% 20%,#dceeff 0,#f5f9ff 38%,#fff 75%);padding:76px 0 60px}
+    .hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:44px;align-items:center;direction:ltr}
+    .hero-copy{direction:rtl}
+    .badge{display:inline-block;background:#e8f2ff;color:var(--navy);border:1px solid #cfe3fa;padding:5px 13px;border-radius:999px;font-weight:800}
+    h1{font-size:clamp(2.1rem,5vw,4.2rem);line-height:1.25;margin:18px 0 10px;color:var(--navy)}
+    .hero p{font-size:1.18rem;color:#536176;max-width:650px}
+    .buttons{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}
+    .btn{display:inline-flex;align-items:center;justify-content:center;padding:11px 20px;border-radius:12px;font-weight:800;border:1px solid #d7e1ec}
+    .btn-primary{background:var(--blue);color:#fff;border-color:var(--blue)}
+    .btn-whatsapp{background:#168c52;color:#fff;border-color:#168c52}
+    .hero-logo{background:#fff;padding:18px;border-radius:28px;box-shadow:0 18px 55px rgba(18,62,112,.14);border:1px solid #e4edf7}
+    .hero-logo img{display:block;width:100%;border-radius:18px}
+    section{padding:70px 0}
+    .section-head{text-align:center;margin-bottom:34px}
+    .section-head h2{font-size:2rem;color:var(--navy);margin:0 0 5px}
+    .section-head p{color:var(--muted);margin:0}
+    .services{background:var(--light)}
+    .cards{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+    .card{background:#fff;border:1px solid #e2eaf3;border-radius:18px;padding:22px;text-align:center;transition:.2s;box-shadow:0 6px 20px rgba(15,40,70,.04)}
+    .card:hover{transform:translateY(-4px);box-shadow:0 12px 30px rgba(15,40,70,.1)}
+    .icon{font-size:2rem}
+    .card h3{color:var(--navy);font-size:1.1rem;margin:8px 0 4px}
+    .card p{font-size:.9rem;color:var(--muted);margin:0}
+    .about-grid{display:grid;grid-template-columns:1fr 1fr;gap:35px;align-items:center}
+    .about-box{background:linear-gradient(135deg,#0f3c6e,#1c6da8);color:#fff;border-radius:25px;padding:35px}
+    .about-box h2{font-size:2rem;margin-top:0}
+    .facts{display:grid;gap:14px}
+    .fact{display:flex;gap:12px;align-items:flex-start;padding:17px;border:1px solid #e5ebf2;border-radius:15px}
+    .fact b{display:block;color:var(--navy)}
+    .contact{background:#f7fafc}
+    .contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:25px}
+    .contact-card{background:#fff;border:1px solid #e2eaf3;border-radius:20px;padding:28px}
+    .contact-row{display:flex;gap:14px;align-items:center;padding:14px 0;border-bottom:1px solid #edf1f5}
+    .contact-row:last-child{border-bottom:0}
+    .contact-icon{font-size:1.5rem}
+    footer{background:#0b294b;color:#dce8f5;text-align:center;padding:30px 0}
+    footer strong{color:#fff}
+    .small{font-size:.9rem;color:#91a8bf}
+    @media(max-width:850px){
+      .hero-grid,.about-grid,.contact-grid{grid-template-columns:1fr}
+      .cards{grid-template-columns:repeat(2,1fr)}
+      nav{display:none}
+      .hero{padding-top:45px}
+    }
+    @media(max-width:520px){
+      .cards{grid-template-columns:1fr}
+      .brand span{font-size:1rem}
+      .buttons .btn{width:100%}
+    }
+  </style>
+</head>
+<body>
+<header>
+  <div class="container nav">
+    <a class="brand" href="#home">
+      <img src="assets/logo.jpg" alt="Khan Composing Logo">
+      <span>خان کمپوزنگ</span>
+    </a>
+    <nav>
+      <a href="#home">ہوم</a>
+      <a href="#services">خدمات</a>
+      <a href="#about">ہمارے بارے میں</a>
+      <a href="#contact">رابطہ</a>
+      <a class="cta" href="https://wa.me/923068001122" target="_blank">WhatsApp</a>
+    </nav>
+  </div>
+</header>
+
+<main id="home">
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <span class="badge">Typesetting • Printing • Graphics • Mianwali</span>
+        <h1>خان کمپوزنگ<br>آپ کی سہولت، ایک ہی جگہ</h1>
+        <p>فوٹو کاپی، کلر پرنٹ، نادرا بائیومیٹرک، آن لائن نادرا فیس، ڈرائیونگ لائسنس، لرنر، ڈومیسائل اور پاسپورٹ فیس سے متعلق سہولیات۔</p>
+        <div class="buttons">
+          <a class="btn btn-primary" href="#services">ہماری خدمات دیکھیں</a>
+          <a class="btn btn-whatsapp" href="https://wa.me/923068001122" target="_blank">📱 WhatsApp پر رابطہ</a>
+        </div>
+      </div>
+      <div class="hero-logo">
+        <img src="assets/logo.jpg" alt="Khan Composing">
+      </div>
+    </div>
+  </section>
+
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-head">
+        <h2>ہماری خدمات</h2>
+        <p>روزمرہ کی اہم کمپوزنگ، پرنٹنگ اور آن لائن سہولیات</p>
+      </div>
+      <div class="cards">
+        <div class="card"><div class="icon">📄</div><h3>فوٹو کاپی / فوٹو اسٹیٹ</h3><p>ضروری دستاویزات کی کاپیاں</p></div>
+        <div class="card"><div class="icon">🖨️</div><h3>کلر پرنٹ</h3><p>معیاری کلر پرنٹنگ سروس</p></div>
+        <div class="card"><div class="icon">🆔</div><h3>نادرا بائیومیٹرک</h3><p>نادرا سے متعلق بائیومیٹرک سہولت</p></div>
+        <div class="card"><div class="icon">💳</div><h3>آن لائن نادرا فیس</h3><p>آن لائن فیس جمع کروانے کی سہولت</p></div>
+        <div class="card"><div class="icon">🚗</div><h3>ڈرائیونگ لائسنس</h3><p>آن لائن لائسنس سے متعلق کام</p></div>
+        <div class="card"><div class="icon">📝</div><h3>لرنر لائسنس</h3><p>لرنر سے متعلق آن لائن سہولت</p></div>
+        <div class="card"><div class="icon">📑</div><h3>ڈومیسائل</h3><p>ڈومیسائل سے متعلق دستاویزات</p></div>
+        <div class="card"><div class="icon">🛂</div><h3>پاسپورٹ فیس</h3><p>پاسپورٹ فیس جمع کروانے کی سہولت</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container about-grid">
+      <div class="about-box">
+        <h2>خان کمپوزنگ میں خوش آمدید</h2>
+        <p>ہم میانوالی میں کمپوزنگ، پرنٹنگ اور مختلف آن لائن سہولیات ایک ہی جگہ فراہم کرنے کی کوشش کرتے ہیں۔ اپنی ضرورت کے مطابق رابطہ کریں یا دکان پر تشریف لائیں۔</p>
+        <a class="btn" style="background:#fff;color:#123e70;border-color:#fff" href="https://wa.me/923068001122" target="_blank">ابھی رابطہ کریں</a>
+      </div>
+      <div class="facts">
+        <div class="fact"><span>📍</span><div><b>مقام</b>نادرا آفس، سویل لائن، میانوالی</div></div>
+        <div class="fact"><span>📱</span><div><b>WhatsApp / رابطہ</b>0306 8001122</div></div>
+        <div class="fact"><span>🌐</span><div><b>Website</b>www.khancomposing.com</div></div>
+        <div class="fact"><span>⭐</span><div><b>Est. 2023</b>Typesetting • Printing • Graphics</div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="section-head">
+        <h2>ہم سے رابطہ کریں</h2>
+        <p>کسی بھی کام کے لیے براہِ راست رابطہ کریں</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-card">
+          <div class="contact-row"><span class="contact-icon">📱</span><div><b>WhatsApp</b><br><a href="https://wa.me/923068001122" target="_blank">0306 8001122</a></div></div>
+          <div class="contact-row"><span class="contact-icon">📍</span><div><b>پتہ</b><br>نادرا آفس، سویل لائن، میانوالی</div></div>
+          <div class="contact-row"><span class="contact-icon">🌐</span><div><b>ویب سائٹ</b><br>www.khancomposing.com</div></div>
+        </div>
+        <div class="contact-card">
+          <h3 style="color:#123e70;margin-top:0">آن لائن رابطہ</h3>
+          <p style="color:#64748b">WhatsApp پر پیغام بھیجنے کے لیے نیچے بٹن دبائیں۔</p>
+          <a class="btn btn-whatsapp" style="width:100%" href="https://wa.me/923068001122?text=Assalam-o-Alaikum%2C%20mujhe%20Khan%20Composing%20ki%20service%20ke%20bare%20mein%20maloomat%20chahiye." target="_blank">💬 WhatsApp Message</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container">
+    <strong>خان کمپوزنگ — KHAN COMPOSING</strong>
+    <div class="small">Typesetting | Printing | Graphics | Mianwali</div>
+    <div class="small">© 2026 Khan Composing. All rights reserved.</div>
+  </div>
+</footer>
+</body>
+</html>
